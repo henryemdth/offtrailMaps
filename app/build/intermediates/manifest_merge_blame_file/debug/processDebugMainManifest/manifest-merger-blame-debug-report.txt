@@ -1,0 +1,328 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.offtrail.maps"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="36" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/henry/Desktop/Develop/2026/Avenza/OfftrailMaps/app/src/main/AndroidManifest.xml:4:5-67
+11-->/Users/henry/Desktop/Develop/2026/Avenza/OfftrailMaps/app/src/main/AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/Users/henry/Desktop/Develop/2026/Avenza/OfftrailMaps/app/src/main/AndroidManifest.xml:5:5-79
+12-->/Users/henry/Desktop/Develop/2026/Avenza/OfftrailMaps/app/src/main/AndroidManifest.xml:5:22-76
+13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+13-->/Users/henry/Desktop/Develop/2026/Avenza/OfftrailMaps/app/src/main/AndroidManifest.xml:6:5-79
+13-->/Users/henry/Desktop/Develop/2026/Avenza/OfftrailMaps/app/src/main/AndroidManifest.xml:6:22-76
+14    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+14-->/Users/henry/Desktop/Develop/2026/Avenza/OfftrailMaps/app/src/main/AndroidManifest.xml:7:5-81
+14-->/Users/henry/Desktop/Develop/2026/Avenza/OfftrailMaps/app/src/main/AndroidManifest.xml:7:22-78
+15    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+15-->/Users/henry/Desktop/Develop/2026/Avenza/OfftrailMaps/app/src/main/AndroidManifest.xml:8:5-85
+15-->/Users/henry/Desktop/Develop/2026/Avenza/OfftrailMaps/app/src/main/AndroidManifest.xml:8:22-82
+16    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+16-->/Users/henry/Desktop/Develop/2026/Avenza/OfftrailMaps/app/src/main/AndroidManifest.xml:9:5-77
+16-->/Users/henry/Desktop/Develop/2026/Avenza/OfftrailMaps/app/src/main/AndroidManifest.xml:9:22-74
+17    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_LOCATION" />
+17-->/Users/henry/Desktop/Develop/2026/Avenza/OfftrailMaps/app/src/main/AndroidManifest.xml:10:5-86
+17-->/Users/henry/Desktop/Develop/2026/Avenza/OfftrailMaps/app/src/main/AndroidManifest.xml:10:22-83
+18    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+18-->/Users/henry/Desktop/Develop/2026/Avenza/OfftrailMaps/app/src/main/AndroidManifest.xml:11:5-77
+18-->/Users/henry/Desktop/Develop/2026/Avenza/OfftrailMaps/app/src/main/AndroidManifest.xml:11:22-74
+19    <uses-permission android:name="android.permission.VIBRATE" />
+19-->/Users/henry/Desktop/Develop/2026/Avenza/OfftrailMaps/app/src/main/AndroidManifest.xml:12:5-66
+19-->/Users/henry/Desktop/Develop/2026/Avenza/OfftrailMaps/app/src/main/AndroidManifest.xml:12:22-63
+20    <uses-permission android:name="android.permission.CAMERA" />
+20-->/Users/henry/Desktop/Develop/2026/Avenza/OfftrailMaps/app/src/main/AndroidManifest.xml:13:5-65
+20-->/Users/henry/Desktop/Develop/2026/Avenza/OfftrailMaps/app/src/main/AndroidManifest.xml:13:22-62
+21
+22    <uses-feature
+22-->/Users/henry/Desktop/Develop/2026/Avenza/OfftrailMaps/app/src/main/AndroidManifest.xml:15:5-91
+23        android:name="android.hardware.location.gps"
+23-->/Users/henry/Desktop/Develop/2026/Avenza/OfftrailMaps/app/src/main/AndroidManifest.xml:15:19-63
+24        android:required="false" />
+24-->/Users/henry/Desktop/Develop/2026/Avenza/OfftrailMaps/app/src/main/AndroidManifest.xml:15:64-88
+25    <uses-feature
+25-->/Users/henry/Desktop/Develop/2026/Avenza/OfftrailMaps/app/src/main/AndroidManifest.xml:16:5-85
+26        android:name="android.hardware.camera"
+26-->/Users/henry/Desktop/Develop/2026/Avenza/OfftrailMaps/app/src/main/AndroidManifest.xml:16:19-57
+27        android:required="false" />
+27-->/Users/henry/Desktop/Develop/2026/Avenza/OfftrailMaps/app/src/main/AndroidManifest.xml:16:58-82
+28
+29    <permission
+29-->[androidx.core:core:1.13.1] /Users/henry/.gradle/caches/8.14.3/transforms/1093393317dcdd90713f86d479be7981/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+30        android:name="com.offtrail.maps.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+30-->[androidx.core:core:1.13.1] /Users/henry/.gradle/caches/8.14.3/transforms/1093393317dcdd90713f86d479be7981/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+31        android:protectionLevel="signature" />
+31-->[androidx.core:core:1.13.1] /Users/henry/.gradle/caches/8.14.3/transforms/1093393317dcdd90713f86d479be7981/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+32
+33    <uses-permission android:name="com.offtrail.maps.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+33-->[androidx.core:core:1.13.1] /Users/henry/.gradle/caches/8.14.3/transforms/1093393317dcdd90713f86d479be7981/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+33-->[androidx.core:core:1.13.1] /Users/henry/.gradle/caches/8.14.3/transforms/1093393317dcdd90713f86d479be7981/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+34
+35    <supports-screens
+35-->[org.osmdroid:osmdroid-android:6.1.20] /Users/henry/.gradle/caches/8.14.3/transforms/10be62557abf719414ec062b702c6fe9/transformed/osmdroid-android-6.1.20/AndroidManifest.xml:9:5-12:40
+36        android:anyDensity="true"
+36-->[org.osmdroid:osmdroid-android:6.1.20] /Users/henry/.gradle/caches/8.14.3/transforms/10be62557abf719414ec062b702c6fe9/transformed/osmdroid-android-6.1.20/AndroidManifest.xml:10:9-34
+37        android:largeScreens="true"
+37-->[org.osmdroid:osmdroid-android:6.1.20] /Users/henry/.gradle/caches/8.14.3/transforms/10be62557abf719414ec062b702c6fe9/transformed/osmdroid-android-6.1.20/AndroidManifest.xml:11:9-36
+38        android:normalScreens="true" />
+38-->[org.osmdroid:osmdroid-android:6.1.20] /Users/henry/.gradle/caches/8.14.3/transforms/10be62557abf719414ec062b702c6fe9/transformed/osmdroid-android-6.1.20/AndroidManifest.xml:12:9-37
+39
+40    <uses-feature
+40-->[org.osmdroid:osmdroid-android:6.1.20] /Users/henry/.gradle/caches/8.14.3/transforms/10be62557abf719414ec062b702c6fe9/transformed/osmdroid-android-6.1.20/AndroidManifest.xml:14:5-16:36
+41        android:name="android.hardware.location.network"
+41-->[org.osmdroid:osmdroid-android:6.1.20] /Users/henry/.gradle/caches/8.14.3/transforms/10be62557abf719414ec062b702c6fe9/transformed/osmdroid-android-6.1.20/AndroidManifest.xml:15:9-57
+42        android:required="false" />
+42-->[org.osmdroid:osmdroid-android:6.1.20] /Users/henry/.gradle/caches/8.14.3/transforms/10be62557abf719414ec062b702c6fe9/transformed/osmdroid-android-6.1.20/AndroidManifest.xml:16:9-33
+43    <uses-feature
+43-->[org.osmdroid:osmdroid-android:6.1.20] /Users/henry/.gradle/caches/8.14.3/transforms/10be62557abf719414ec062b702c6fe9/transformed/osmdroid-android-6.1.20/AndroidManifest.xml:20:5-22:36
+44        android:name="android.hardware.telephony"
+44-->[org.osmdroid:osmdroid-android:6.1.20] /Users/henry/.gradle/caches/8.14.3/transforms/10be62557abf719414ec062b702c6fe9/transformed/osmdroid-android-6.1.20/AndroidManifest.xml:21:9-50
+45        android:required="false" />
+45-->[org.osmdroid:osmdroid-android:6.1.20] /Users/henry/.gradle/caches/8.14.3/transforms/10be62557abf719414ec062b702c6fe9/transformed/osmdroid-android-6.1.20/AndroidManifest.xml:22:9-33
+46    <uses-feature
+46-->[org.osmdroid:osmdroid-android:6.1.20] /Users/henry/.gradle/caches/8.14.3/transforms/10be62557abf719414ec062b702c6fe9/transformed/osmdroid-android-6.1.20/AndroidManifest.xml:23:5-25:36
+47        android:name="android.hardware.wifi"
+47-->[org.osmdroid:osmdroid-android:6.1.20] /Users/henry/.gradle/caches/8.14.3/transforms/10be62557abf719414ec062b702c6fe9/transformed/osmdroid-android-6.1.20/AndroidManifest.xml:24:9-45
+48        android:required="false" />
+48-->[org.osmdroid:osmdroid-android:6.1.20] /Users/henry/.gradle/caches/8.14.3/transforms/10be62557abf719414ec062b702c6fe9/transformed/osmdroid-android-6.1.20/AndroidManifest.xml:25:9-33
+49    <uses-feature
+49-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/henry/.gradle/caches/8.14.3/transforms/83eef74cde1d902875ee0083c104a25f/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:28:5-30:36
+50        android:name="android.hardware.camera.front"
+50-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/henry/.gradle/caches/8.14.3/transforms/83eef74cde1d902875ee0083c104a25f/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:29:9-53
+51        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
+51-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/henry/.gradle/caches/8.14.3/transforms/83eef74cde1d902875ee0083c104a25f/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:30:9-33
+52    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
+53    <uses-feature
+53-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/henry/.gradle/caches/8.14.3/transforms/83eef74cde1d902875ee0083c104a25f/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:33:5-35:36
+54        android:name="android.hardware.camera.autofocus"
+54-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/henry/.gradle/caches/8.14.3/transforms/83eef74cde1d902875ee0083c104a25f/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:34:9-57
+55        android:required="false" />
+55-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/henry/.gradle/caches/8.14.3/transforms/83eef74cde1d902875ee0083c104a25f/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:35:9-33
+56    <uses-feature
+56-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/henry/.gradle/caches/8.14.3/transforms/83eef74cde1d902875ee0083c104a25f/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:36:5-38:36
+57        android:name="android.hardware.camera.flash"
+57-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/henry/.gradle/caches/8.14.3/transforms/83eef74cde1d902875ee0083c104a25f/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:37:9-53
+58        android:required="false" />
+58-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/henry/.gradle/caches/8.14.3/transforms/83eef74cde1d902875ee0083c104a25f/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:38:9-33
+59    <uses-feature
+59-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/henry/.gradle/caches/8.14.3/transforms/83eef74cde1d902875ee0083c104a25f/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:39:5-41:36
+60        android:name="android.hardware.screen.landscape"
+60-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/henry/.gradle/caches/8.14.3/transforms/83eef74cde1d902875ee0083c104a25f/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:40:9-57
+61        android:required="false" />
+61-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/henry/.gradle/caches/8.14.3/transforms/83eef74cde1d902875ee0083c104a25f/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:41:9-33
+62
+63    <application
+63-->/Users/henry/Desktop/Develop/2026/Avenza/OfftrailMaps/app/src/main/AndroidManifest.xml:18:5-63:19
+64        android:name="com.offtrail.maps.OfftrailApp"
+64-->/Users/henry/Desktop/Develop/2026/Avenza/OfftrailMaps/app/src/main/AndroidManifest.xml:19:9-36
+65        android:allowBackup="true"
+65-->/Users/henry/Desktop/Develop/2026/Avenza/OfftrailMaps/app/src/main/AndroidManifest.xml:20:9-35
+66        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+66-->[androidx.core:core:1.13.1] /Users/henry/.gradle/caches/8.14.3/transforms/1093393317dcdd90713f86d479be7981/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+67        android:debuggable="true"
+68        android:extractNativeLibs="false"
+69        android:icon="@drawable/ic_launcher"
+69-->/Users/henry/Desktop/Develop/2026/Avenza/OfftrailMaps/app/src/main/AndroidManifest.xml:21:9-45
+70        android:label="@string/app_name"
+70-->/Users/henry/Desktop/Develop/2026/Avenza/OfftrailMaps/app/src/main/AndroidManifest.xml:22:9-41
+71        android:supportsRtl="true"
+71-->/Users/henry/Desktop/Develop/2026/Avenza/OfftrailMaps/app/src/main/AndroidManifest.xml:23:9-35
+72        android:testOnly="true"
+73        android:theme="@style/Theme.Offtrail"
+73-->/Users/henry/Desktop/Develop/2026/Avenza/OfftrailMaps/app/src/main/AndroidManifest.xml:24:9-46
+74        android:usesCleartextTraffic="true" >
+74-->/Users/henry/Desktop/Develop/2026/Avenza/OfftrailMaps/app/src/main/AndroidManifest.xml:25:9-44
+75        <activity
+75-->/Users/henry/Desktop/Develop/2026/Avenza/OfftrailMaps/app/src/main/AndroidManifest.xml:27:9-36:20
+76            android:name="com.offtrail.maps.MainActivity"
+76-->/Users/henry/Desktop/Develop/2026/Avenza/OfftrailMaps/app/src/main/AndroidManifest.xml:28:13-41
+77            android:configChanges="orientation|screenSize|keyboardHidden"
+77-->/Users/henry/Desktop/Develop/2026/Avenza/OfftrailMaps/app/src/main/AndroidManifest.xml:31:13-74
+78            android:exported="true"
+78-->/Users/henry/Desktop/Develop/2026/Avenza/OfftrailMaps/app/src/main/AndroidManifest.xml:29:13-36
+79            android:launchMode="singleTask" >
+79-->/Users/henry/Desktop/Develop/2026/Avenza/OfftrailMaps/app/src/main/AndroidManifest.xml:30:13-44
+80            <intent-filter>
+80-->/Users/henry/Desktop/Develop/2026/Avenza/OfftrailMaps/app/src/main/AndroidManifest.xml:32:13-35:29
+81                <action android:name="android.intent.action.MAIN" />
+81-->/Users/henry/Desktop/Develop/2026/Avenza/OfftrailMaps/app/src/main/AndroidManifest.xml:33:17-69
+81-->/Users/henry/Desktop/Develop/2026/Avenza/OfftrailMaps/app/src/main/AndroidManifest.xml:33:25-66
+82
+83                <category android:name="android.intent.category.LAUNCHER" />
+83-->/Users/henry/Desktop/Develop/2026/Avenza/OfftrailMaps/app/src/main/AndroidManifest.xml:34:17-77
+83-->/Users/henry/Desktop/Develop/2026/Avenza/OfftrailMaps/app/src/main/AndroidManifest.xml:34:27-74
+84            </intent-filter>
+85        </activity>
+86
+87        <!-- Open files with Offtrail Maps (mirrors OpenFileWithAvenzaMapsActivity behavior) -->
+88        <activity
+88-->/Users/henry/Desktop/Develop/2026/Avenza/OfftrailMaps/app/src/main/AndroidManifest.xml:39:9-57:20
+89            android:name="com.offtrail.maps.ui.OpenFileWithOfftrailActivity"
+89-->/Users/henry/Desktop/Develop/2026/Avenza/OfftrailMaps/app/src/main/AndroidManifest.xml:40:13-60
+90            android:exported="true"
+90-->/Users/henry/Desktop/Develop/2026/Avenza/OfftrailMaps/app/src/main/AndroidManifest.xml:41:13-36
+91            android:theme="@style/Theme.Offtrail" >
+91-->/Users/henry/Desktop/Develop/2026/Avenza/OfftrailMaps/app/src/main/AndroidManifest.xml:42:13-50
+92            <intent-filter>
+92-->/Users/henry/Desktop/Develop/2026/Avenza/OfftrailMaps/app/src/main/AndroidManifest.xml:43:13-56:29
+93                <action android:name="android.intent.action.VIEW" />
+93-->/Users/henry/Desktop/Develop/2026/Avenza/OfftrailMaps/app/src/main/AndroidManifest.xml:44:17-69
+93-->/Users/henry/Desktop/Develop/2026/Avenza/OfftrailMaps/app/src/main/AndroidManifest.xml:44:25-66
+94
+95                <category android:name="android.intent.category.DEFAULT" />
+95-->/Users/henry/Desktop/Develop/2026/Avenza/OfftrailMaps/app/src/main/AndroidManifest.xml:45:17-76
+95-->/Users/henry/Desktop/Develop/2026/Avenza/OfftrailMaps/app/src/main/AndroidManifest.xml:45:27-73
+96                <category android:name="android.intent.category.BROWSABLE" />
+96-->/Users/henry/Desktop/Develop/2026/Avenza/OfftrailMaps/app/src/main/AndroidManifest.xml:46:17-78
+96-->/Users/henry/Desktop/Develop/2026/Avenza/OfftrailMaps/app/src/main/AndroidManifest.xml:46:27-75
+97
+98                <data android:mimeType="application/gpx+xml" />
+98-->/Users/henry/Desktop/Develop/2026/Avenza/OfftrailMaps/app/src/main/AndroidManifest.xml:47:17-64
+98-->/Users/henry/Desktop/Develop/2026/Avenza/OfftrailMaps/app/src/main/AndroidManifest.xml:47:23-61
+99                <data android:mimeType="application/vnd.google-earth.kml+xml" />
+99-->/Users/henry/Desktop/Develop/2026/Avenza/OfftrailMaps/app/src/main/AndroidManifest.xml:47:17-64
+99-->/Users/henry/Desktop/Develop/2026/Avenza/OfftrailMaps/app/src/main/AndroidManifest.xml:47:23-61
+100                <data android:mimeType="application/vnd.google-earth.kmz" />
+100-->/Users/henry/Desktop/Develop/2026/Avenza/OfftrailMaps/app/src/main/AndroidManifest.xml:47:17-64
+100-->/Users/henry/Desktop/Develop/2026/Avenza/OfftrailMaps/app/src/main/AndroidManifest.xml:47:23-61
+101                <data android:mimeType="text/csv" />
+101-->/Users/henry/Desktop/Develop/2026/Avenza/OfftrailMaps/app/src/main/AndroidManifest.xml:47:17-64
+101-->/Users/henry/Desktop/Develop/2026/Avenza/OfftrailMaps/app/src/main/AndroidManifest.xml:47:23-61
+102                <data android:pathPattern=".*\\.gpx" />
+102-->/Users/henry/Desktop/Develop/2026/Avenza/OfftrailMaps/app/src/main/AndroidManifest.xml:47:17-64
+102-->/Users/henry/Desktop/Develop/2026/Avenza/OfftrailMaps/app/src/main/AndroidManifest.xml:51:23-53
+103                <data android:pathPattern=".*\\.kml" />
+103-->/Users/henry/Desktop/Develop/2026/Avenza/OfftrailMaps/app/src/main/AndroidManifest.xml:47:17-64
+103-->/Users/henry/Desktop/Develop/2026/Avenza/OfftrailMaps/app/src/main/AndroidManifest.xml:51:23-53
+104                <data android:pathPattern=".*\\.kmz" />
+104-->/Users/henry/Desktop/Develop/2026/Avenza/OfftrailMaps/app/src/main/AndroidManifest.xml:47:17-64
+104-->/Users/henry/Desktop/Develop/2026/Avenza/OfftrailMaps/app/src/main/AndroidManifest.xml:51:23-53
+105                <data android:pathPattern=".*\\.csv" />
+105-->/Users/henry/Desktop/Develop/2026/Avenza/OfftrailMaps/app/src/main/AndroidManifest.xml:47:17-64
+105-->/Users/henry/Desktop/Develop/2026/Avenza/OfftrailMaps/app/src/main/AndroidManifest.xml:51:23-53
+106                <data android:pathPattern=".*\\.shp" />
+106-->/Users/henry/Desktop/Develop/2026/Avenza/OfftrailMaps/app/src/main/AndroidManifest.xml:47:17-64
+106-->/Users/henry/Desktop/Develop/2026/Avenza/OfftrailMaps/app/src/main/AndroidManifest.xml:51:23-53
+107            </intent-filter>
+108        </activity>
+109
+110        <service
+110-->/Users/henry/Desktop/Develop/2026/Avenza/OfftrailMaps/app/src/main/AndroidManifest.xml:59:9-62:56
+111            android:name="com.offtrail.maps.tracking.TrackingService"
+111-->/Users/henry/Desktop/Develop/2026/Avenza/OfftrailMaps/app/src/main/AndroidManifest.xml:60:13-53
+112            android:exported="false"
+112-->/Users/henry/Desktop/Develop/2026/Avenza/OfftrailMaps/app/src/main/AndroidManifest.xml:61:13-37
+113            android:foregroundServiceType="location" />
+113-->/Users/henry/Desktop/Develop/2026/Avenza/OfftrailMaps/app/src/main/AndroidManifest.xml:62:13-53
+114
+115        <activity
+115-->[com.google.android.gms:play-services-base:18.5.0] /Users/henry/.gradle/caches/8.14.3/transforms/821d2d219614b345786ffc6db90e7d7e/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:9-173
+116            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+116-->[com.google.android.gms:play-services-base:18.5.0] /Users/henry/.gradle/caches/8.14.3/transforms/821d2d219614b345786ffc6db90e7d7e/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:19-85
+117            android:exported="false"
+117-->[com.google.android.gms:play-services-base:18.5.0] /Users/henry/.gradle/caches/8.14.3/transforms/821d2d219614b345786ffc6db90e7d7e/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:146-170
+118            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+118-->[com.google.android.gms:play-services-base:18.5.0] /Users/henry/.gradle/caches/8.14.3/transforms/821d2d219614b345786ffc6db90e7d7e/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:86-145
+119
+120        <meta-data
+120-->[com.google.android.gms:play-services-basement:18.4.0] /Users/henry/.gradle/caches/8.14.3/transforms/3ffb14e0c3c89c166d36392284159017/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:9-122
+121            android:name="com.google.android.gms.version"
+121-->[com.google.android.gms:play-services-basement:18.4.0] /Users/henry/.gradle/caches/8.14.3/transforms/3ffb14e0c3c89c166d36392284159017/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:20-65
+122            android:value="@integer/google_play_services_version" />
+122-->[com.google.android.gms:play-services-basement:18.4.0] /Users/henry/.gradle/caches/8.14.3/transforms/3ffb14e0c3c89c166d36392284159017/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:66-119
+123
+124        <activity
+124-->[androidx.compose.ui:ui-tooling-android:1.7.3] /Users/henry/.gradle/caches/8.14.3/transforms/56b48675e4799ad8d1ee1a2fe2e46cfa/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
+125            android:name="androidx.compose.ui.tooling.PreviewActivity"
+125-->[androidx.compose.ui:ui-tooling-android:1.7.3] /Users/henry/.gradle/caches/8.14.3/transforms/56b48675e4799ad8d1ee1a2fe2e46cfa/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
+126            android:exported="true" />
+126-->[androidx.compose.ui:ui-tooling-android:1.7.3] /Users/henry/.gradle/caches/8.14.3/transforms/56b48675e4799ad8d1ee1a2fe2e46cfa/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
+127
+128        <provider
+128-->[androidx.lifecycle:lifecycle-process:2.8.7] /Users/henry/.gradle/caches/8.14.3/transforms/991a5262915533e821c6b69a4e795374/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:24:9-32:20
+129            android:name="androidx.startup.InitializationProvider"
+129-->[androidx.lifecycle:lifecycle-process:2.8.7] /Users/henry/.gradle/caches/8.14.3/transforms/991a5262915533e821c6b69a4e795374/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:25:13-67
+130            android:authorities="com.offtrail.maps.androidx-startup"
+130-->[androidx.lifecycle:lifecycle-process:2.8.7] /Users/henry/.gradle/caches/8.14.3/transforms/991a5262915533e821c6b69a4e795374/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:26:13-68
+131            android:exported="false" >
+131-->[androidx.lifecycle:lifecycle-process:2.8.7] /Users/henry/.gradle/caches/8.14.3/transforms/991a5262915533e821c6b69a4e795374/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:27:13-37
+132            <meta-data
+132-->[androidx.lifecycle:lifecycle-process:2.8.7] /Users/henry/.gradle/caches/8.14.3/transforms/991a5262915533e821c6b69a4e795374/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:29:13-31:52
+133                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+133-->[androidx.lifecycle:lifecycle-process:2.8.7] /Users/henry/.gradle/caches/8.14.3/transforms/991a5262915533e821c6b69a4e795374/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:30:17-78
+134                android:value="androidx.startup" />
+134-->[androidx.lifecycle:lifecycle-process:2.8.7] /Users/henry/.gradle/caches/8.14.3/transforms/991a5262915533e821c6b69a4e795374/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:31:17-49
+135            <meta-data
+135-->[androidx.emoji2:emoji2:1.3.0] /Users/henry/.gradle/caches/8.14.3/transforms/daee0402ef00086776d0bbb03170c5bf/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+136                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+136-->[androidx.emoji2:emoji2:1.3.0] /Users/henry/.gradle/caches/8.14.3/transforms/daee0402ef00086776d0bbb03170c5bf/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+137                android:value="androidx.startup" />
+137-->[androidx.emoji2:emoji2:1.3.0] /Users/henry/.gradle/caches/8.14.3/transforms/daee0402ef00086776d0bbb03170c5bf/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+138            <meta-data
+138-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/henry/.gradle/caches/8.14.3/transforms/172e2750707655a7b4a0f9b8e16364a0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+139                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+139-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/henry/.gradle/caches/8.14.3/transforms/172e2750707655a7b4a0f9b8e16364a0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+140                android:value="androidx.startup" />
+140-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/henry/.gradle/caches/8.14.3/transforms/172e2750707655a7b4a0f9b8e16364a0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+141        </provider>
+142
+143        <receiver
+143-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/henry/.gradle/caches/8.14.3/transforms/172e2750707655a7b4a0f9b8e16364a0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+144            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+144-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/henry/.gradle/caches/8.14.3/transforms/172e2750707655a7b4a0f9b8e16364a0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+145            android:directBootAware="false"
+145-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/henry/.gradle/caches/8.14.3/transforms/172e2750707655a7b4a0f9b8e16364a0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+146            android:enabled="true"
+146-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/henry/.gradle/caches/8.14.3/transforms/172e2750707655a7b4a0f9b8e16364a0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+147            android:exported="true"
+147-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/henry/.gradle/caches/8.14.3/transforms/172e2750707655a7b4a0f9b8e16364a0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+148            android:permission="android.permission.DUMP" >
+148-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/henry/.gradle/caches/8.14.3/transforms/172e2750707655a7b4a0f9b8e16364a0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+149            <intent-filter>
+149-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/henry/.gradle/caches/8.14.3/transforms/172e2750707655a7b4a0f9b8e16364a0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+150                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+150-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/henry/.gradle/caches/8.14.3/transforms/172e2750707655a7b4a0f9b8e16364a0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+150-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/henry/.gradle/caches/8.14.3/transforms/172e2750707655a7b4a0f9b8e16364a0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+151            </intent-filter>
+152            <intent-filter>
+152-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/henry/.gradle/caches/8.14.3/transforms/172e2750707655a7b4a0f9b8e16364a0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+153                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+153-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/henry/.gradle/caches/8.14.3/transforms/172e2750707655a7b4a0f9b8e16364a0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+153-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/henry/.gradle/caches/8.14.3/transforms/172e2750707655a7b4a0f9b8e16364a0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+154            </intent-filter>
+155            <intent-filter>
+155-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/henry/.gradle/caches/8.14.3/transforms/172e2750707655a7b4a0f9b8e16364a0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+156                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+156-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/henry/.gradle/caches/8.14.3/transforms/172e2750707655a7b4a0f9b8e16364a0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+156-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/henry/.gradle/caches/8.14.3/transforms/172e2750707655a7b4a0f9b8e16364a0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+157            </intent-filter>
+158            <intent-filter>
+158-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/henry/.gradle/caches/8.14.3/transforms/172e2750707655a7b4a0f9b8e16364a0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+159                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+159-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/henry/.gradle/caches/8.14.3/transforms/172e2750707655a7b4a0f9b8e16364a0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+159-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/henry/.gradle/caches/8.14.3/transforms/172e2750707655a7b4a0f9b8e16364a0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+160            </intent-filter>
+161        </receiver>
+162
+163        <activity
+163-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/henry/.gradle/caches/8.14.3/transforms/83eef74cde1d902875ee0083c104a25f/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:47:9-53:63
+164            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+164-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/henry/.gradle/caches/8.14.3/transforms/83eef74cde1d902875ee0083c104a25f/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:48:13-74
+165            android:clearTaskOnLaunch="true"
+165-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/henry/.gradle/caches/8.14.3/transforms/83eef74cde1d902875ee0083c104a25f/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:49:13-45
+166            android:screenOrientation="sensorLandscape"
+166-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/henry/.gradle/caches/8.14.3/transforms/83eef74cde1d902875ee0083c104a25f/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:50:13-56
+167            android:stateNotNeeded="true"
+167-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/henry/.gradle/caches/8.14.3/transforms/83eef74cde1d902875ee0083c104a25f/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:51:13-42
+168            android:theme="@style/zxing_CaptureTheme"
+168-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/henry/.gradle/caches/8.14.3/transforms/83eef74cde1d902875ee0083c104a25f/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:52:13-54
+169            android:windowSoftInputMode="stateAlwaysHidden" />
+169-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/henry/.gradle/caches/8.14.3/transforms/83eef74cde1d902875ee0083c104a25f/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:53:13-60
+170    </application>
+171
+172</manifest>

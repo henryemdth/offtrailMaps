@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Offtrail Maps</string>
+    <string name="tracking_channel">Track recording</string>
+    <string name="geofence_channel">Geofence alerts</string>
+    <string name="tracking_notification_title">Recording track …</string>
+    <string name="tracking_notification_paused">Recording track paused</string>
+</resources>

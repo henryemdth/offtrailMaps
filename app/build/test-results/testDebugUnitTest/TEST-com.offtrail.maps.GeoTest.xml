@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.offtrail.maps.GeoTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-10-26T00:32:09.764Z" hostname="Henrys-MacBook-Pro.local" time="0.025">
+  <properties/>
+  <testcase name="haversine distance is sane for a known pair" classname="com.offtrail.maps.GeoTest" time="0.002"/>
+  <testcase name="mgrs reference point matches expected grid" classname="com.offtrail.maps.GeoTest" time="0.009"/>
+  <testcase name="utm round trip keeps meter-level accuracy" classname="com.offtrail.maps.GeoTest" time="0.013"/>
+  <testcase name="zone and band lookup" classname="com.offtrail.maps.GeoTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

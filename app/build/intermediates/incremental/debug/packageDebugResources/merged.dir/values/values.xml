@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Offtrail Maps</string>
+    <string name="geofence_channel">Geofence alerts</string>
+    <string name="tracking_channel">Track recording</string>
+    <string name="tracking_notification_paused">Recording track paused</string>
+    <string name="tracking_notification_title">Recording track …</string>
+    <style name="Theme.Offtrail" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+</resources>
